@@ -1,0 +1,183 @@
+/* reset browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+ol { 
+  margin-left: 1.4em; 
+  list-style: decimal; 
+}
+ul { 
+  margin-left: 1.4em; 
+  list-style:disc; 
+}
+img {
+  border: 0;
+  margin:0;
+}
+/* end reset browser styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+	border: 0;
+	color: #363636;
+	font-family: 'Lato', sans-serif;
+	overflow:hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #f33b7e;
+	border: 0;
+}
+
+p {
+	font-size: 1.2em;
+	letter-spacing: .2em;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+
+#logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 424px;
+	width: 100%;
+}
+
+#wrapper {
+	background: #f9f5ef url(../images/newOrleans-building.jpg) no-repeat left bottom;
+	background-size: contain;
+	bottom: 0;
+	height: 100%;
+    left: 0;
+	overflow: auto;
+	padding: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.copy-card {
+    background: #fff;
+    margin: 40px auto 0;
+    max-width: 400px;
+    padding: 5px;
+    position: relative;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
+}
+
+@media screen and (min-width: 800px) {
+  .copy-card {
+  	margin-top: -40px;
+    top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .copy-card {
+  	float: right;
+  	margin: -40px 5% 0 0;
+  }
+}
+
+.copy-block {
+    border: 1px solid #b99d6b;
+    padding: 20px;
+}
+
+.intro {
+	text-align: center;
+}
+
+.show-form .intro {
+	display: none;
+}
+
+.rsvp-form,
+.thank-you {
+	display: none;
+}
+
+.show-form .rsvp-form {
+	display: block;
+}
+
+.show-thanks .thank-you {
+	display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+	-webkit-appearance: none;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	display: block;
+	padding: 1em;
+	width: 100%;
+}
+
+.mc-field-group {
+	margin-bottom: 25px;
+}
+
+.mc-field-group ul {
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+}
+
+.mc-field-group li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.submit-container {
+	text-align: right;
+}
+
+input#mc-embedded-subscribe,
+a.cta {
+	background-color: #b99d6b;
+	-webkit-appearance: none;
+    border-radius: 0;
+	border: none;
+	color: #ffffff;
+	display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: .15em;
+	margin: 0 auto;
+	padding: 10px 12px;
+}
+
+a.cta {
+	display: inline-block;
+}
+
+.indicates-required {
+	text-align: right;
+	font-size: 14px;
+}
+
+.input-group li {
+	display: inline;
+	margin-right: 20px;
+}
+
+input[type="radio"] {
+	margin-right: 8px;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
