@@ -120,8 +120,11 @@ input[type="email"] {
 	-webkit-appearance: none;
 	border: 1px solid #ccc;
 	border-radius: 0;
+	color: #363636;
 	display: block;
-	padding: 1em;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	padding: 8px;
 	width: 100%;
 }
 
