@@ -52,6 +52,7 @@ p {
 #wrapper {
 	background: #f9f5ef url(../images/newOrleans-building.jpg) no-repeat left bottom;
 	background-size: contain;
+	border: 5px solid #b99d6b;
 	bottom: 0;
 	height: 100%;
     left: 0;
