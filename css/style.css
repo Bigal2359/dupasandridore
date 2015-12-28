@@ -49,6 +49,12 @@ p {
 	width: 100%;
 }
 
+@media screen and (min-width: 800px) {
+  #logo {
+  	margin-top: 20px;
+  }
+}
+
 #wrapper {
 	background: #f9f5ef url(../images/newOrleans-building.jpg) no-repeat left bottom;
 	background-size: contain;
