@@ -29,6 +29,14 @@ body {
 	overflow:hidden;
 }
 
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
 a {
 	text-decoration: none;
 	color: #f33b7e;
