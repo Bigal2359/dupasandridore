@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 2.0em;
 	font-weight: bold;
 	letter-spacing: .2em;
 	line-height: 1.6;
@@ -51,10 +51,26 @@ p {
 }
 
 #logo {
+	display: none;
+	margin: 0 auto;
+	max-width: 630px;
+	width: 100%;
+}
+
+#logo-SM {
 	display: block;
 	margin: 20px auto;
-	max-width: 530px;
 	width: 100%;
+}
+
+@media screen and (min-width: 450px) {
+   #logo {
+   	display: block;
+   }
+
+   #logo-SM {
+   	display: none;
+   }
 }
 
 #wrapper {
