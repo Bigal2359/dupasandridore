@@ -52,15 +52,9 @@ p {
 
 #logo {
 	display: block;
-	margin: 0 auto;
+	margin: 20px auto;
 	max-width: 530px;
 	width: 100%;
-}
-
-@media screen and (min-width: 800px) {
-  #logo {
-  	margin-top: 20px;
-  }
 }
 
 #wrapper {
