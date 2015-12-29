@@ -54,12 +54,14 @@ p {
 	display: none;
 	margin: 0 auto;
 	max-width: 630px;
+	position: relative;
 	width: 100%;
 }
 
 #logo-SM {
 	display: block;
 	margin: 20px auto;
+	position: relative;
 	width: 100%;
 }
 
@@ -74,8 +76,7 @@ p {
 }
 
 #wrapper {
-	background: #f9f5ef url(../images/street-sign.jpg) no-repeat left bottom;
-	background-size: contain;
+	background-color: #f9f5ef;
 	border: 5px solid #b99d6b;
 	bottom: 0;
 	height: 100%;
@@ -85,6 +86,25 @@ p {
 	position: absolute;
 	right: 0;
 	top: 0;
+}
+
+.bkgd {
+	height: 100%;
+	left: 0;
+	position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.bkgd-1 {
+	background: url(../images/street-sign.jpg) no-repeat left bottom;
+	background-size: contain;
+}
+
+.bkgd-2 {
+	background: url(../images/newOrleans-building.jpg) no-repeat left bottom;
+	background-size: contain;
+	display: none;
 }
 
 .copy-card {
