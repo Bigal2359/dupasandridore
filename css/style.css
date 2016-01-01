@@ -1,17 +1,17 @@
 /* reset browser styles */
 html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
- padding: 0;
- margin: 0;
  font-size: 100%;
  font-weight: normal;
+ margin: 0;
+ padding: 0;
 }
 ol { 
-  margin-left: 1.4em; 
   list-style: decimal; 
+  margin-left: 1.4em; 
 }
 ul { 
-  margin-left: 1.4em; 
   list-style:disc; 
+  margin-left: 1.4em; 
 }
 img {
   border: 0;
@@ -108,13 +108,13 @@ p {
 }
 
 .copy-card {
+    -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
     background: #fff;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
     margin: 40px auto 0;
     max-width: 400px;
     padding: 5px;
     position: relative;
-    -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
-    box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
 }
 
 @media screen and (min-width: 800px) {
@@ -217,18 +217,18 @@ input[type="email"] {
 
 input#mc-embedded-subscribe,
 a.cta {
-	background-color: #b99d6b;
 	-webkit-appearance: none;
-    border-radius: 0;
+	background-color: #b99d6b;
 	border: none;
 	color: #ffffff;
 	display: block;
+	margin: 0 auto;
+	padding: 10px 12px;
+    border-radius: 0;
     font-family: 'Lato', sans-serif;
     font-size: 1.1em;
     font-weight: 700;
     letter-spacing: .15em;
-	margin: 0 auto;
-	padding: 10px 12px;
 }
 
 a.cta {
@@ -237,8 +237,8 @@ a.cta {
 
 div#addeventatc1 {
     background-color: #b99d6b !important;
-    color: #fff !important;
     border: 0 !important;
+    color: #fff !important;
     font-family: 'Lato', sans-serif !important;
     font-size: 1.1em !important;
     font-weight: 700 !important;
