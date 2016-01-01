@@ -8,3 +8,16 @@ setInterval(function() {
     .end()
     .appendTo('.slideshow');
 },  10000);
+
+
+$('.intro').click(function(){
+                
+    $( '.intro' ).fadeToggle();
+
+    setTimeout(function() {
+                $( '.save-the-date' ).fadeToggle();
+            },500);
+        
+});
+
+
