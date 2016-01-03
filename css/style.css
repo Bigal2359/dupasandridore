@@ -107,6 +107,18 @@ p {
 	display: none;
 }
 
+@media screen and (orientation : portrait) {
+	.bkgd-1 {
+		background: url(../images/street-sign-portrait.jpg) no-repeat left bottom;
+		background-size: contain;
+	}
+
+	.bkgd-2 {
+		background: url(../images/newOrleans-building-portrait.jpg) no-repeat left bottom;
+		background-size: contain;
+	}
+}
+
 .copy-card {
     -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
     background: #fff;
