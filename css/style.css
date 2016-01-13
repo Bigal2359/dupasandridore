@@ -88,6 +88,11 @@ p {
 	top: 0;
 }
 
+.wedding #wrapper {
+	background: #f9f5ef url(../images/cathedral.jpg) no-repeat center bottom;
+	background-size: contain;
+}
+
 .bkgd {
 	bottom: 0;
 	height: 100%;
@@ -154,6 +159,10 @@ p {
 
 .center {
 	text-align: center;
+}
+
+.address p {
+	margin-bottom: 0;
 }
 
 .intro {
