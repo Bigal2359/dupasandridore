@@ -20,4 +20,8 @@ $('.intro').click(function(){
         
 });
 
+$('.btn-nav-menu, .close-btn').click(function(){
+    $('.nav-menu').toggleClass('active');
+});
+
 
