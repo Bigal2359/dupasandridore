@@ -158,6 +158,13 @@ p {
 	background-size: contain;
 }
 
+@media screen and (orientation : landscape) {
+	.wedding #wrapper {
+		background: #f9f5ef url(../images/cathedral.jpg) no-repeat center bottom;
+		background-size: cover;
+	}
+}
+
 .bkgd {
 	bottom: 0;
 	height: 100%;
