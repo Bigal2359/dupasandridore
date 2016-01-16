@@ -353,3 +353,48 @@ input[type="radio"] {
 .nowrap {
 	white-space: nowrap;
 }
+
+.retailer-section-items {
+	margin-bottom: 1em;
+}
+
+.retailer-item {
+	display: inline-block;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.retailer-item a {
+	display: block;
+	height: 60px;
+	margin: 0 auto;
+	max-width: 200px;
+	width: 100%;
+}
+
+.bed-bath-beyond {
+	background: url('../images/bed-bath-beyond.png') no-repeat center;
+	background-size: contain;
+}
+
+.target {
+	background: url('../images/target.png') no-repeat center;
+	background-size: contain;
+}
+
+.williams-sonoma {
+	background: url('../images/williams-sonoma.png') no-repeat center;
+	background-size: contain;
+}
+
+.retailer-item-inner {
+	padding: 10px;
+}
+
+.retailer-image {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 40%;
+	width: 100%;
+}
