@@ -42,7 +42,7 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: #f33b7e;
+	color: #363636;
 	border: 0;
 }
 
@@ -168,6 +168,18 @@ p {
 	}
 }
 
+.e-party #wrapper {
+	background: #f9f5ef url(../images/6th-floor-loft.jpg) no-repeat center bottom;
+	background-size: contain;
+}
+
+@media screen and (orientation : landscape) {
+	.e-party #wrapper {
+		background: #f9f5ef url(../images/6th-floor-loft.jpg) no-repeat center bottom;
+		background-size: cover;
+	}
+}
+
 .bkgd {
 	bottom: 0;
 	height: 100%;
@@ -237,6 +249,7 @@ p {
 }
 
 .address {
+	display: block;
 	margin-bottom: 15px;
 }
 

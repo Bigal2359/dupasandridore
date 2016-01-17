@@ -12,16 +12,25 @@ setInterval(function() {
 
 $('.intro').click(function(){
                 
-    $( '.intro' ).fadeToggle();
+    $('.intro').fadeToggle();
 
     setTimeout(function() {
-                $( '.save-the-date' ).fadeToggle();
-            },500);
+        $('.save-the-date').fadeToggle();
+    },500);
+        
+});
+
+$('.rsvp').click(function() {
+           
+    $(this).parent().parent('.engagement-party').fadeToggle();
+
+    setTimeout(function() {
+        $('.rsvp-form').fadeToggle();
+    },500);
         
 });
 
 $('.btn-nav-menu, .close-btn').click(function(){
     $('.nav-menu').toggleClass('active');
 });
-
 
