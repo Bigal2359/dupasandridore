@@ -23,9 +23,20 @@ $('.intro').click(function(){
 $('.rsvp').click(function() {
            
     $(this).parent().parent('.engagement-party').fadeToggle();
+    document.getElementById('mc-embedded-subscribe-form').reset();
 
     setTimeout(function() {
         $('.rsvp-form').fadeToggle();
+    },500);
+        
+});
+
+$('input#mc-embedded-subscribe').click(function(){
+                
+    $('.rsvp-form').fadeToggle();
+
+    setTimeout(function() {
+        $('.thank-you').fadeToggle();
     },500);
         
 });
