@@ -433,6 +433,11 @@ input[type="radio"] {
 	background-size: contain;
 }
 
+.honeyfund {
+	background: url('../images/honeyfund-logo.png') no-repeat center;
+	background-size: contain;
+}
+
 .retailer-item-inner {
 	padding: 10px;
 }
