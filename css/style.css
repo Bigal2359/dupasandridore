@@ -287,6 +287,10 @@ p {
 	width: 15px;
 }
 
+.fade-in {
+	display: none;
+}
+
 .show-save .intro {
 	display: none;
 }
@@ -303,17 +307,6 @@ p {
 .show-form .rsvp-form {
 	display: block;
 }
-
-.engagement-party {
-	-webkit-animation: fadeIn 0.5s ease-in 0.7s 1 forwards;
-	-moz-animation: fadeIn 0.5s ease-in 0.7s 1 forwards;
-	animation: fadeIn 0.5s ease-in 0.7s 1 forwards;
-	opacity: 0;
-}
-
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .show-thanks .thank-you {
 	display: block;

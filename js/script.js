@@ -45,3 +45,7 @@ $('.btn-nav-menu, .close-btn').click(function(){
     $('.nav-menu').toggleClass('active');
 });
 
+setTimeout(function() {
+    $('.fade-in').fadeToggle();
+},1000);
+
