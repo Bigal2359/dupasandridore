@@ -157,25 +157,25 @@ p {
 }
 
 .wedding #wrapper {
-	background: #f9f5ef url(../images/cathedral.jpg) no-repeat center bottom;
+	background: #f9f5ef url('../images/cathedral.jpg') no-repeat center bottom;
 	background-size: contain;
 }
 
 @media screen and (orientation : landscape) {
 	.wedding #wrapper {
-		background: #f9f5ef url(../images/cathedral.jpg) no-repeat center bottom;
+		background: #f9f5ef url('../images/cathedral.jpg') no-repeat center bottom;
 		background-size: cover;
 	}
 }
 
 .e-party #wrapper {
-	background: #f9f5ef url(../images/6th-floor-loft.jpg) no-repeat center bottom;
+	background: #f9f5ef url('../images/6th-floor-loft.jpg') no-repeat center bottom;
 	background-size: contain;
 }
 
 @media screen and (orientation : landscape) {
 	.e-party #wrapper {
-		background: #f9f5ef url(../images/6th-floor-loft.jpg) no-repeat center bottom;
+		background: #f9f5ef url('../images/6th-floor-loft.jpg') no-repeat center bottom;
 		background-size: cover;
 	}
 }
@@ -189,24 +189,24 @@ p {
 }
 
 .bkgd-1 {
-	background: url(../images/street-sign.jpg) no-repeat left bottom;
+	background: url('../images/street-sign.jpg') no-repeat left bottom;
 	background-size: contain;
 }
 
 .bkgd-2 {
-	background: url(../images/newOrleans-building.jpg) no-repeat left bottom;
+	background: url('../images/newOrleans-building.jpg') no-repeat left bottom;
 	background-size: contain;
 	display: none;
 }
 
 @media screen and (orientation : portrait) {
 	.bkgd-1 {
-		background: url(../images/street-sign-portrait.jpg) no-repeat left bottom;
+		background: url('../images/street-sign-portrait.jpg') no-repeat left bottom;
 		background-size: contain;
 	}
 
 	.bkgd-2 {
-		background: url(../images/newOrleans-building-portrait.jpg) no-repeat left bottom;
+		background: url('../images/newOrleans-building-portrait.jpg') no-repeat left bottom;
 		background-size: contain;
 	}
 }
