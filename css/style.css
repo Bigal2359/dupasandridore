@@ -407,12 +407,12 @@ input[type="radio"] {
 }
 
 .bed-bath-beyond {
-	background: url('../images/bed-bath-beyond.png') no-repeat center;
+	background: url('../images/bed-bath-beyond.jpg') no-repeat center;
 	background-size: contain;
 }
 
 .target {
-	background: url('../images/target.png') no-repeat center;
+	background: url('../images/target.jpg') no-repeat center;
 	background-size: contain;
 }
 
