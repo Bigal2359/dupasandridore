@@ -63,7 +63,7 @@ p {
 
 #logo-SM {
 	display: block;
-	margin: 20px auto;
+	margin: 50px auto 20px;
 	position: relative;
 	width: 100%;
 }
@@ -82,11 +82,12 @@ p {
 	background: url('../images/menu-icon.png') no-repeat;
 	background-size: contain;
 	cursor: pointer;
-	float: right;
-	margin: 0 0 25px;
-	position: relative;
 	height: 25px;
+	position: fixed;
+	right: 25px;
+	top: 25px;
 	width: 46px;
+	z-index: 10;
 }
 
 .nav-menu {
@@ -180,11 +181,17 @@ p {
 	}
 }
 
+.slideshow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+}
+
 .bkgd {
-	bottom: 0;
 	height: 100%;
-	left: 0;
-	position: absolute;
     width: 100%;
 }
 
