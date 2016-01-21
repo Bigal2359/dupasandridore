@@ -46,6 +46,6 @@ $('.btn-nav-menu, .close-btn').click(function(){
 });
 
 setTimeout(function() {
-    $('.fade-in').fadeToggle();
-},1000);
+    $('.fade-in').fadeToggle('slow');
+},1500);
 
