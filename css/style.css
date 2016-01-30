@@ -228,16 +228,17 @@ p {
     max-width: 400px;
     padding: 5px;
     position: relative;
+    width: 100%;
 }
 
 @media screen and (min-width: 800px) {
-  .copy-card {
-  	margin-top: -40px;
-    top: 50%;
-  	-webkit-transform: translateY(-50%);
-  	-ms-transform: translateY(-50%);
-  	transform: translateY(-50%);
-  }
+	.copy-card {
+		margin-top: -40px;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
 }
 
 .large {
