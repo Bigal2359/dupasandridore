@@ -22,7 +22,7 @@ $('.intro').click(function(){
 
 $('.rsvp').click(function() {
            
-    $(this).parent().parent('.engagement-party').fadeToggle();
+    $(this).parent().parent().fadeToggle();
     document.getElementById('mc-embedded-subscribe-form').reset();
 
     setTimeout(function() {
