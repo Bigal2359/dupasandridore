@@ -59,6 +59,17 @@ p {
 	margin-bottom: 15px;
 }
 
+.l-site-header {
+	background-color: #f9f5ef;
+	height: 50px;
+	left: 5px;
+	padding: 20px;
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	z-index: 1;
+}
+
 .faq p {
     font-size: 1em;
     margin-bottom: 30px;
@@ -74,9 +85,22 @@ p {
 
 #logo-SM {
 	display: block;
-	margin: 50px auto 20px;
+	margin-bottom: 20px;
 	position: relative;
-	width: 100%;
+	width: 80%;
+}
+
+#wrapper {
+	background-color: #f9f5ef;
+	border: 5px solid #b99d6b;
+	bottom: 0;
+	height: 100%;
+    left: 0;
+	overflow: auto;
+	padding: 60px 20px 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 @media screen and (min-width: 450px) {
@@ -87,6 +111,14 @@ p {
    #logo-SM {
    	display: none;
    }
+
+	.l-site-header {
+		height: 113px;
+	}
+
+	#wrapper {
+		padding-top: 120px;
+	}
 }
 
 .btn-nav-menu {
@@ -154,19 +186,6 @@ p {
 .menu-items a:hover {
 	background-color: #fff;
 	color: #333;
-}
-
-#wrapper {
-	background-color: #f9f5ef;
-	border: 5px solid #b99d6b;
-	bottom: 0;
-	height: 100%;
-    left: 0;
-	overflow: auto;
-	padding: 20px;
-	position: absolute;
-	right: 0;
-	top: 0;
 }
 
 .wedding #wrapper {
@@ -242,6 +261,19 @@ p {
 }
 
 @media screen and (min-width: 800px) {
+	.l-site-header {
+		background-color: transparent;
+		height: auto;
+		left: auto;
+		position: relative;
+		right: auto;
+		top: auto;
+	}
+
+	#wrapper {
+		padding: 20px;
+	}
+
 	.copy-card {
 		margin-top: -40px;
 		top: 50%;
