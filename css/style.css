@@ -238,12 +238,12 @@ p {
 }
 
 .accommodations .bkgd-1 {
-	background: url('../images/church-floor.jpg') no-repeat left bottom;
+	background: url('../images/streetcar.jpg') no-repeat left bottom;
 	background-size: contain;
 }
 
 .accommodations .bkgd-2 {
-	background: url('../images/streetcar.jpg') no-repeat left bottom;
+	background: url('../images/church-floor.jpg') no-repeat left bottom;
 	background-size: contain;
 	display: none;
 }
