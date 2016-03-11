@@ -42,8 +42,8 @@ $('input#mc-embedded-subscribe').click(function(){
         
 });
 
-$('.btn-nav-menu, .close-btn').click(function(){
-    $('.nav-menu').toggleClass('active');
+$('.btn-nav-menu, .close-btn, .nav-menu-bg').click(function(){
+    $('body').toggleClass('menu-active');
 });
 
 setTimeout(function() {

@@ -150,13 +150,28 @@ p {
     z-index: 1000;
 }
 
-.nav-menu.active {
+.nav-menu-bg {
+	display: none;
+	height: 100%;
+	left: 0;
+  	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.menu-active .nav-menu {
 	-webkit-box-shadow: -15px 0px 33px -12px rgba(0,0,0,0.3);
 	-moz-box-shadow: -15px 0px 33px -12px rgba(0,0,0,0.3);
 	box-shadow: -15px 0px 33px -12px rgba(0,0,0,0.3);
 	right: 0;
 	-webkit-transition: right 0.5s;
     transition: right 0.5s;
+}
+
+.menu-active .nav-menu-bg {
+	display: block;
 }
 
 .close-btn {
