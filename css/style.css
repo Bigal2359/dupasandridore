@@ -88,6 +88,12 @@ p {
 	margin-bottom: 20px;
 	position: relative;
 	width: 80%;
+	-webkit-transition: width .5s ease-out;
+    transition: width .5s ease-out;
+}
+
+.home #logo-SM {
+	width: 100%;
 }
 
 #wrapper {
