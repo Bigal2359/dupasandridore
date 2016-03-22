@@ -342,7 +342,7 @@ p {
 @media screen and (min-width: 1000px) {
   .copy-card {
   	float: right;
-  	margin: -40px 5% 0 0;
+  	margin: -40px 5% 20px 0px;
   }
 }
 
