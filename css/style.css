@@ -118,12 +118,32 @@ p {
    }
 
 	.l-site-header {
-		height: 113px;
+		background-color: transparent;
+		height: auto;
+		position: relative;
 	}
 
 	#wrapper {
-		padding-top: 120px;
+		padding-top: 0;
 	}
+}
+
+@media screen and (min-width: 450px) and (orientation : landscape) {
+
+	#logo {
+		margin: -40px 50px 0 0;
+		width: 90%;
+	}
+
+}
+
+@media screen and (min-width: 800px) and (orientation : landscape) {
+
+	#logo {
+		margin: 0 auto;
+		width: 100%;
+	}
+
 }
 
 .btn-nav-menu {
@@ -303,6 +323,7 @@ p {
     box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
     margin: 40px auto 0;
     max-width: 400px;
+    -webkit-overflow-scrolling: touch;
     padding: 5px;
     position: relative;
     width: 100%;
