@@ -1,3 +1,15 @@
+/*var bypass = getUrlParameter('bypass');
+bypass = (bypass === 'yes' ? true : false);
+
+if(bypass) {
+    document.cookie = 'is-first-visit=true';
+}
+
+if(!getCookie('is-first-visit') && !bypass && $('body').hasClass('home')) {
+    $('.interstitial').show();
+    $('#interstitial-leaving').hide();
+}*/
+
 $(".slideshow > div:gt(0)").hide();
 
 setInterval(function() { 
