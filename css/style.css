@@ -581,10 +581,6 @@ input[type="radio"] {
 	width: 100%;
 }
 
-.retailer-item img {
-	width: 100%;
-}
-
 .bed-bath-beyond {
 	background: url('../images/bed-bath-beyond.jpg') no-repeat center;
 	background-size: contain;
@@ -603,6 +599,12 @@ input[type="radio"] {
 .wanderable {
 	background: url('../images/wanderable-logo.jpg') no-repeat center;
 	background-size: contain;
+}
+
+.zola {
+	background: url('../images/zola.jpg') no-repeat center;
+	background-size: contain;
+	height: 80px !important;
 }
 
 .retailer-item-inner {
