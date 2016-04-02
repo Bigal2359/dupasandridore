@@ -341,6 +341,10 @@ p {
 @media screen and (min-width: 800px) and (orientation : landscape) {
 
 	.copy-card.large {
+		width: 100%;
+	}
+
+	.faq .copy-card.large {
 		margin: 0 auto 30px;
 		width: 100%;
 	}
@@ -385,7 +389,7 @@ p {
   	}
 
   	.small {
-  		margin: -40px 5% 20px 0px;
+  		margin: -110px 5% 20px 0px;
   	} 
 }
 
