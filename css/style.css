@@ -361,7 +361,7 @@ p {
 		padding: 20px;
 	}
 
-	.copy-card {
+	.small {
 		margin-top: -40px;
 		top: 50%;
 		-webkit-transform: translateY(-50%);
@@ -379,10 +379,14 @@ p {
 }
 
 @media screen and (min-width: 1000px) {
-  .copy-card {
-  	float: right;
-  	margin: -40px 5% 20px 0px;
-  }
+	.copy-card {
+		float: right;
+  		margin: 0 5% 20px 0px;
+  	}
+
+  	.small {
+  		margin: -40px 5% 20px 0px;
+  	} 
 }
 
 .copy-block {
