@@ -315,6 +315,26 @@ p {
 		background: url('../images/newOrleans-building-portrait.jpg') no-repeat left bottom;
 		background-size: contain;
 	}
+
+	.accommodations .bkgd-1 {
+		background: url('../images/streetcar-portrait.jpg') no-repeat left bottom;
+		background-size: contain;
+	}
+
+	.accommodations .bkgd-2 {
+		background: url('../images/church-floor-portrait.jpg') no-repeat left bottom;
+		background-size: contain;
+	}
+
+	.registry .bkgd-1 {
+		background: url('../images/street-feet-portrait.jpg') no-repeat left bottom;
+		background-size: contain;
+	}
+
+	.registry .bkgd-2 {
+		background: url('../images/newOrleans-building-portrait.jpg') no-repeat left bottom;
+		background-size: contain;
+	}
 }
 
 .copy-card {
