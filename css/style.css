@@ -75,12 +75,15 @@ p {
     margin-bottom: 30px;
 }
 
-#logo {
-	display: none;
-	margin: 0 auto;
+.logo {
+	background: url('../images/dupasandridore-logo-SM.png') no-repeat center;
+	background-size: contain;
+	display: block;
+	height: 25px;
+	margin-bottom: 20px;
 	max-width: 630px;
 	position: relative;
-	width: 100%;
+	width: 80%;
 }
 
 #logo-SM {
@@ -92,7 +95,7 @@ p {
     transition: width .5s ease-out;
 }
 
-.home #logo-SM {
+.home .logo {
 	width: 100%;
 }
 
@@ -109,12 +112,12 @@ p {
 }
 
 @media screen and (min-width: 450px) {
-   #logo {
-   	display: block;
-   }
-
-   #logo-SM {
-   	display: none;
+   .logo {
+   	background: url('../images/dupasandridore-logo.png') no-repeat center;
+	background-size: contain;
+	height: 70px;
+	margin: 0 auto;
+   	width: 100%;
    }
 
 	.l-site-header {
@@ -130,7 +133,7 @@ p {
 
 @media screen and (min-width: 450px) and (orientation : landscape) {
 
-	#logo {
+	.logo {
 		margin: -40px 50px 0 0;
 		width: 90%;
 	}
@@ -139,7 +142,8 @@ p {
 
 @media screen and (min-width: 800px) and (orientation : landscape) {
 
-	#logo {
+	.logo {
+		height: 118px;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -244,6 +248,11 @@ p {
 	background-size: contain;
 }
 
+.bridal #wrapper {
+	background: #f9f5ef url('../images/bridal.jpg') no-repeat center bottom;
+	background-size: contain;
+}
+
 .proposal #wrapper {
 	background: #f9f5ef url('../images/niagara-falls.jpg') no-repeat center bottom;
 	background-size: contain;
@@ -252,7 +261,8 @@ p {
 @media screen and (orientation : landscape) {
 	.wedding #wrapper,
 	.e-party #wrapper,
-	.proposal #wrapper {
+	.proposal #wrapper,
+	.bridal #wrapper {
 		background-size: cover;
 	}
 }
