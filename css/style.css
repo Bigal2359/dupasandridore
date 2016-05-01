@@ -244,6 +244,11 @@ p {
 	background-size: contain;
 }
 
+.bridal #wrapper {
+	background: #f9f5ef url('../images/bridal.jpg') no-repeat center bottom;
+	background-size: contain;
+}
+
 .proposal #wrapper {
 	background: #f9f5ef url('../images/niagara-falls.jpg') no-repeat center bottom;
 	background-size: contain;
@@ -252,7 +257,8 @@ p {
 @media screen and (orientation : landscape) {
 	.wedding #wrapper,
 	.e-party #wrapper,
-	.proposal #wrapper {
+	.proposal #wrapper,
+	.bridal #wrapper {
 		background-size: cover;
 	}
 }
