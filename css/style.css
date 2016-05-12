@@ -25,6 +25,7 @@ img {
 }
 
 body {
+	background: #f9f5ef;
 	border: 0;
 	color: #363636;
 	font-family: 'Lato', sans-serif;
@@ -113,11 +114,11 @@ p {
 
 @media screen and (min-width: 450px) {
    .logo {
-   	background: url('../images/dupasandridore-logo.png') no-repeat center;
-	background-size: contain;
-	height: 70px;
-	margin: 0 auto;
-   	width: 100%;
+		background: url('../images/dupasandridore-logo.png') no-repeat center;
+		background-size: contain;
+		height: 70px;
+		margin: 0 auto;
+		width: 100%;
    }
 
 	.l-site-header {
@@ -239,22 +240,27 @@ p {
 }
 
 .wedding #wrapper {
-	background: #f9f5ef url('../images/cathedral.jpg') no-repeat center bottom;
+	background: url('../images/cathedral.jpg') no-repeat center bottom;
 	background-size: contain;
 }
 
 .e-party #wrapper {
-	background: #f9f5ef url('../images/6th-floor-loft.jpg') no-repeat center bottom;
+	background: url('../images/6th-floor-loft.jpg') no-repeat center bottom;
 	background-size: contain;
 }
 
 .bridal #wrapper {
-	background: #f9f5ef url('../images/bridal.jpg') no-repeat center bottom;
+	background: url('../images/bridal.jpg') no-repeat center bottom;
 	background-size: contain;
 }
 
 .proposal #wrapper {
-	background: #f9f5ef url('../images/niagara-falls.jpg') no-repeat center bottom;
+	background: url('../images/niagara-falls.jpg') no-repeat center bottom;
+	background-size: contain;
+}
+
+.our-story #wrapper {
+	background: url('../images/syracuse.jpg') no-repeat center bottom;
 	background-size: contain;
 }
 
@@ -262,13 +268,13 @@ p {
 	.wedding #wrapper,
 	.e-party #wrapper,
 	.proposal #wrapper,
-	.bridal #wrapper {
+	.bridal #wrapper,
+	.our-story #wrapper {
 		background-size: cover;
 	}
 }
 
 .slideshow {
-	background-color: #f9f5ef;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -672,4 +678,10 @@ input[type="radio"] {
 .hilton {
 	background: url('../images/hilton-logo.jpg') no-repeat center;
 	background-size: contain;
+}
+
+.our-story .second,
+.our-story .third {
+	display: none;
+	opacity: 0;
 }
