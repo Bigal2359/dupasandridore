@@ -259,17 +259,11 @@ p {
 	background-size: contain;
 }
 
-.our-story #wrapper {
-	background: url('../images/syracuse.jpg') no-repeat center bottom;
-	background-size: contain;
-}
-
 @media screen and (orientation : landscape) {
 	.wedding #wrapper,
 	.e-party #wrapper,
 	.proposal #wrapper,
-	.bridal #wrapper,
-	.our-story #wrapper {
+	.bridal #wrapper {
 		background-size: cover;
 	}
 }
@@ -317,6 +311,28 @@ p {
 
 .registry .bkgd-2 {
 	background: url('../images/newOrleans-building.jpg') no-repeat left bottom;
+	background-size: contain;
+	display: none;
+}
+
+.our-story .bkgd {
+	padding: 5px;
+	position: fixed;
+}
+
+.our-story .bkgd-1 {
+	background: url('../images/syracuse.jpg') no-repeat center bottom;
+	background-size: contain;
+}
+
+.our-story .bkgd-2 {
+	background: url('../images/howwemet-train.jpg') no-repeat left bottom;
+	background-size: contain;
+	display: none;
+}
+
+.our-story .bkgd-3 {
+	background: url('../images/howwemet-train.jpg') no-repeat left bottom;
 	background-size: contain;
 	display: none;
 }
