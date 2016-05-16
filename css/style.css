@@ -84,16 +84,9 @@ p {
 	margin-bottom: 20px;
 	max-width: 630px;
 	position: relative;
-	width: 80%;
-}
-
-#logo-SM {
-	display: block;
-	margin-bottom: 20px;
-	position: relative;
-	width: 80%;
 	-webkit-transition: width .5s ease-out;
     transition: width .5s ease-out;
+	width: 80%;
 }
 
 .home .logo {
@@ -116,7 +109,7 @@ p {
    .logo {
 		background: url('../images/dupasandridore-logo.png') no-repeat center;
 		background-size: contain;
-		height: 70px;
+		height: 118px;
 		margin: 0 auto;
 		width: 100%;
    }
