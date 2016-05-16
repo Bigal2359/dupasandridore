@@ -328,13 +328,33 @@ p {
 .our-story .bkgd-2 {
 	background: url('../images/howwemet-train.jpg') no-repeat left bottom;
 	background-size: contain;
-	display: none;
+	display: block;
+	opacity: 0;
+}
+
+.our-story.next-panel .bkgd-1 {
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
+
+.our-story.next-panel .bkgd-2 {
+	opacity: 1;
+	-webkit-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
 }
 
 .our-story .bkgd-3 {
 	background: url('../images/howwemet-streetcar.jpg') no-repeat left bottom;
 	background-size: contain;
-	display: none;
+	display: block;
+	opacity: 0;
+}
+
+.our-story.last-panel .bkgd-3 {
+	opacity: 1;
+	-webkit-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
 }
 
 @media screen and (orientation : portrait) {
