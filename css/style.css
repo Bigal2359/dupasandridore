@@ -68,7 +68,7 @@ p {
 	position: fixed;
 	right: 5px;
 	top: 5px;
-	z-index: 1;
+	z-index: 1000;
 }
 
 .faq p {
@@ -164,17 +164,17 @@ p {
 
 .nav-menu {
 	background-color: #b99d6b;
-	height: 100%;
-	right: -230px;
+	display: none;
+	left: 0;
     position: fixed;
-    top: 0;
-    -webkit-transition: right 0.5s;
-    transition: right 0.5s;
-    width: 230px;
-    z-index: 1000;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
 }
 
 .nav-menu-bg {
+	background: rgba(255, 255, 255, 0.5);
+	border: 5px solid #b99d6b;
 	display: none;
 	height: 100%;
 	left: 0;
@@ -211,6 +211,7 @@ p {
 .menu-items {
 	list-style-type: none;
 	margin: 0;
+	text-align: center;
 }
 
 .menu-items li {

@@ -54,8 +54,9 @@ $('input#mc-embedded-subscribe').click(function(){
         
 });
 
-$('.btn-nav-menu, .close-btn, .nav-menu-bg').click(function(){
+$('.btn-nav-menu, .nav-menu-bg').click(function(){
     $('body').toggleClass('menu-active');
+    $('.nav-menu').fadeToggle();
 });
 
 setTimeout(function() {
