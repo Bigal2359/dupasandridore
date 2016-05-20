@@ -45,6 +45,12 @@ h1 {
 	font-size: 2em;
 }
 
+h1 .caps {
+    font-size: 19px;
+    line-height: 3;
+    text-transform: uppercase;
+}
+
 h2 {
     font-weight: bold;
     margin-bottom: 10px;
