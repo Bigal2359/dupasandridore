@@ -162,6 +162,10 @@ p {
 	z-index: 10;
 }
 
+.home .btn-nav-menu {
+	display: none;
+}
+
 .nav-menu {
 	background-color: #b99d6b;
 	display: none;
