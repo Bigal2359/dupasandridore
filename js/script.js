@@ -25,7 +25,6 @@ setInterval(function() {
 $('.intro').click(function(){
                 
     $('.intro').fadeToggle();
-    $('body').removeClass('home');
 
     setTimeout(function() {
         $('.save-the-date').fadeToggle();

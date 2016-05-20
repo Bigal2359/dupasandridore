@@ -36,9 +36,13 @@ h1 {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 2.5em;
 	letter-spacing: .05em;
-	line-height: 1.6;
+	line-height: 1.2;
 	margin-bottom: 20px;
 	text-align: center;
+}
+
+.home h1 {
+	font-size: 2em;
 }
 
 h2 {
@@ -156,10 +160,6 @@ p {
     transition: right .5s ease-out;
 	width: 50px;
 	z-index: 10;
-}
-
-.home .btn-nav-menu {
-	right: -46px;
 }
 
 .nav-menu {
@@ -597,19 +597,20 @@ a.cta {
 	-webkit-appearance: none;
 	background-color: #b99d6b;
 	border: none;
+	border-radius: 3px;
 	color: #ffffff;
-	display: block;
-	margin: 0 auto;
-	padding: 10px 12px;
-    border-radius: 0;
-    font-family: 'Lato', sans-serif;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
     font-size: 1.1em;
     font-weight: 700;
     letter-spacing: .15em;
+	margin: 0 auto 10px;
+	max-width: 220px;
+	padding: 10px 12px;
 }
 
-a.cta {
-	display: inline-block;
+.home a.cta {
+	display: block;
 }
 
 div#addeventatc1 {
@@ -618,9 +619,11 @@ div#addeventatc1 {
     color: #fff !important;
     font-family: 'Lato', sans-serif !important;
     font-size: 1.1em !important;
+    -webkit-font-smoothing: auto !important;
     font-weight: 700 !important;
     letter-spacing: .15em !important;
     margin-bottom: 10px;
+    width: 220px;
 }
 
 .indicates-required {
