@@ -601,7 +601,6 @@ a.cta {
 	-webkit-appearance: none;
 	background-color: #b99d6b;
 	border: none;
-	border-radius: 3px;
 	color: #ffffff;
 	display: inline-block;
 	font-family: 'Lato', sans-serif;
@@ -620,6 +619,7 @@ a.cta {
 div#addeventatc1 {
     background-color: #b99d6b !important;
     border: 0 !important;
+    border-radius: 0 !important;
     color: #fff !important;
     font-family: 'Lato', sans-serif !important;
     font-size: 1.1em !important;
