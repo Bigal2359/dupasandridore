@@ -42,13 +42,21 @@ h1 {
 }
 
 .home h1 {
-	font-size: 2em;
+	font-size: 19px;
+	line-height: 1.3;
+	margin-bottom: 30px;
 }
 
-h1 .caps {
-    font-size: 19px;
-    line-height: 3;
+.caps {
+    display: block;
+    margin-bottom: 15px;
     text-transform: uppercase;
+}
+
+.names {
+	display: block;
+	font-size: 30px;
+	margin-bottom: 10px;
 }
 
 h2 {
@@ -68,6 +76,10 @@ p {
 	letter-spacing: .06em;
 	line-height: 1.6;
 	margin-bottom: 15px;
+}
+
+.home p {
+	font-family: "Times New Roman", Times, serif;
 }
 
 .l-site-header {
@@ -610,12 +622,12 @@ a.cta {
 	color: #ffffff;
 	display: inline-block;
 	font-family: 'Lato', sans-serif;
-    font-size: 1.1em;
-    font-weight: 700;
+	font-weight: normal;
     letter-spacing: .15em;
 	margin: 0 auto 10px;
 	max-width: 220px;
 	padding: 10px 12px;
+	text-transform: uppercase;
 }
 
 .home a.cta {
@@ -628,11 +640,11 @@ div#addeventatc1 {
     border-radius: 0 !important;
     color: #fff !important;
     font-family: 'Lato', sans-serif !important;
-    font-size: 1.1em !important;
+    font-size: 1em !important;
     -webkit-font-smoothing: auto !important;
-    font-weight: 700 !important;
     letter-spacing: .15em !important;
     margin-bottom: 10px;
+    text-transform: uppercase;
     width: 220px;
 }
 
