@@ -111,7 +111,7 @@ p {
 	width: 80%;
 }
 
-.home .logo {
+.intro .logo {
 	width: 100%;
 }
 
@@ -167,8 +167,6 @@ p {
 }
 
 .btn-nav-menu {
-	/*background: url('../images/menu-icon.png') no-repeat;
-	background-size: contain;*/
 	cursor: pointer;
 	height: 31px;
 	position: fixed;
@@ -180,21 +178,20 @@ p {
 	z-index: 10;
 }
 
-.home .btn-nav-menu {
-	display: none;
+.intro .btn-nav-menu {
+	right: -50px;
 }
 
 .nav-menu {
 	background-color: #b99d6b;
-	display: none;
-	left: 0;
-	height: auto;
+	height: 100%;
+	padding-top: 75px;
     position: fixed;
-    top: 50%;
-    transform: translate(0, -50%);
-    /*-webkit-transition: height .5s ease-out;
-    transition: height .5s ease-out;*/
-    width: 100%;
+    right: -230px;
+    top: 0;
+    -webkit-transition: right .5s ease-out;
+    transition: right .5s ease-out;
+    width: 230px;
 }
 
 .nav-menu-bg {
@@ -214,9 +211,9 @@ p {
 	-webkit-box-shadow: -15px 0px 33px -12px rgba(0,0,0,0.3);
 	-moz-box-shadow: -15px 0px 33px -12px rgba(0,0,0,0.3);
 	box-shadow: -15px 0px 33px -12px rgba(0,0,0,0.3);
-	/*height: auto;
-	-webkit-transition: height 0.5s;
-    transition: height 0.5s;*/
+	right: 0;
+	-webkit-transition: right 0.5s;
+    transition: right 0.5s;
 }
 
 .menu-active .nav-menu-bg {
@@ -527,7 +524,7 @@ p {
   }
 }
 
-.intro {
+.hello {
 	background: #b99d6b;
 	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
     box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
