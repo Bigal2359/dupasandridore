@@ -22,12 +22,13 @@ setInterval(function() {
 },  10000);
 
 
-$('.intro').click(function(){
+$('.hello').click(function(){
                 
-    $('.intro').fadeToggle();
+    $('.hello').fadeToggle();
 
     setTimeout(function() {
         $('.save-the-date').fadeToggle();
+        $('body').removeClass('intro');
     },500);
         
 });
