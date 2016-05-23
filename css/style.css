@@ -623,7 +623,7 @@ a.cta {
 	font-weight: normal;
     letter-spacing: .15em;
 	margin: 0 auto 10px;
-	max-width: 220px;
+	max-width: 240px;
 	padding: 10px 12px;
 	text-transform: uppercase;
 }
@@ -642,8 +642,9 @@ div#addeventatc1 {
     -webkit-font-smoothing: auto !important;
     letter-spacing: .15em !important;
     margin-bottom: 10px;
+    max-width: 240px;
     text-transform: uppercase;
-    width: 220px;
+    width: 100%;
 }
 
 .indicates-required {
