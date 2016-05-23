@@ -103,9 +103,9 @@ Raphael(function(){
         third.animate({path: 'M0 21L50 21',stroke: '#000'},200,'ease-in-out');
         n--;
       }else{
-        first.animate({path: 'M0 1L50 31',stroke: '#FFF'},200,'ease-in-out');
+        first.animate({path: 'M0 1L50 41',stroke: '#FFF'},200,'ease-in-out');
         second.animate({opacity:0},50,'ease-in-out');
-        third.animate({path: 'M0 31L50 1',stroke: '#FFF'},200,'ease-in-out');
+        third.animate({path: 'M0 41L50 1',stroke: '#FFF'},200,'ease-in-out');
         n++;
       }
     });
