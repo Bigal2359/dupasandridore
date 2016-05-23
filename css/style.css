@@ -185,6 +185,7 @@ p {
 .nav-menu {
 	background-color: #b99d6b;
 	height: 100%;
+	overflow-y: auto;
 	padding-top: 75px;
     position: fixed;
     right: -230px;
