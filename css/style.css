@@ -175,6 +175,7 @@ p {
 	height: 31px;
 	position: fixed;
 	right: 25px;
+	text-align: right;
 	top: 25px;
     -webkit-transition: right .5s ease-out;
     transition: right .5s ease-out;
@@ -184,6 +185,16 @@ p {
 
 .intro .btn-nav-menu {
 	right: -50px;
+}
+
+.btn-nav-menu svg {
+	left: 0;
+	position: absolute !important;
+}
+
+.btn-nav-menu span {
+	display: none;
+	text-transform: uppercase;
 }
 
 .nav-menu {
@@ -223,6 +234,10 @@ p {
 
 .menu-active .nav-menu-bg {
 	display: block;
+}
+
+.menu-active .btn-nav-menu span {
+	color: #fff;
 }
 
 .close-btn {
@@ -445,6 +460,14 @@ p {
 }
 
 @media screen and (min-width: 800px) {
+	.btn-nav-menu {
+		width: 117px;
+	}
+
+	.btn-nav-menu span {
+		display: inline;
+	}
+
 	.l-site-header {
 		background-color: transparent;
 		height: auto;

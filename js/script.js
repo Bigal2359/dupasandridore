@@ -83,8 +83,8 @@ $('.continue').click(function(e) {
 
 Raphael(function(){
 
-    var box = Raphael('box', '50', '50');
-    var cover = box.rect(0,0,50,50).attr({fill:'#f00', opacity:0}).toBack();
+    var box = Raphael('box', '117', '50');
+    var cover = box.rect(0,0,117,50).attr({fill:'#f00', opacity:0}).toBack();
 
     var first = box.path('M0 1L50 1');
     first.attr({'stroke-width':'2px',stroke: '#000'});
@@ -103,9 +103,9 @@ Raphael(function(){
         third.animate({path: 'M0 21L50 21',stroke: '#000'},200,'ease-in-out');
         n--;
       }else{
-        first.animate({path: 'M0 1L50 41',stroke: '#FFF'},200,'ease-in-out');
+        first.animate({path: 'M0 1L40 30',stroke: '#FFF'},200,'ease-in-out');
         second.animate({opacity:0},50,'ease-in-out');
-        third.animate({path: 'M0 41L50 1',stroke: '#FFF'},200,'ease-in-out');
+        third.animate({path: 'M0 30L40 1',stroke: '#FFF'},200,'ease-in-out');
         n++;
       }
     });
