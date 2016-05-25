@@ -506,7 +506,11 @@ p {
 
   	.small {
   		margin: -110px 5% 20px 0px;
-  	} 
+  	}
+
+  	.home .small {
+  		margin-top: -40px;
+  	}
 }
 
 .copy-block {
