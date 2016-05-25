@@ -393,6 +393,17 @@ p {
     transition: opacity .5s ease-out;
 }
 
+.rsvp-page .bkgd-1 {
+	background: url('../images/church-floor.jpg') no-repeat left bottom;
+	background-size: contain;
+}
+
+.rsvp-page .bkgd-2 {
+	background: url('../images/cathedral.jpg') no-repeat center bottom;
+	background-size: contain;
+	display: none;
+}
+
 @media screen and (orientation : portrait) {
 	.bkgd-1 {
 		background: url('../images/street-sign-portrait.jpg') no-repeat left bottom;
