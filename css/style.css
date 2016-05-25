@@ -464,6 +464,10 @@ p {
 		width: 117px;
 	}
 
+	.intro .btn-nav-menu {
+		right: -117px;
+	}
+
 	.btn-nav-menu span {
 		display: inline;
 	}
