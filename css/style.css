@@ -420,7 +420,8 @@ p {
 		background-size: contain;
 	}
 
-	.accommodations .bkgd-2 {
+	.accommodations .bkgd-2,
+	.rsvp-page .bkgd-1 {
 		background: url('../images/church-floor-portrait.jpg') no-repeat left bottom;
 		background-size: contain;
 	}
@@ -722,12 +723,14 @@ input[type="radio"] {
 }
 
 .rsvp-page .mc-field-group.input-group ul {
+	display: block;
 	margin-left: 0; 
 }
 
 .rsvp-page .mc-field-group.input-group li {
-	display: inline-block;
-	width: 40%;
+	display: block;
+	margin: 0 0 10px 0;
+
 }
 
 .rsvp-page .mc-field-group.input-group input[type="radio"] {
@@ -737,13 +740,31 @@ input[type="radio"] {
 
 .rsvp-page .mc-field-group.input-group label {
 	display: inline-block;
-	width: 70%;
 }
 
-.mc-field-group.dish {
-	display: block;
-	float: left;
-	margin-right: 15px;
+.mc-field-group.dish br {
+	display: none;
+}
+
+@media screen and (min-width: 450px) {
+	.rsvp-page .mc-field-group.input-group li {
+		display: inline-block;
+		margin-right: 20px;
+		width: 40%;
+	}
+
+	.rsvp-page .mc-field-group.input-group label {
+		width: 70%;
+	}
+
+	.mc-field-group.dish {
+		float: left;
+		margin-right: 15px;
+	}
+
+	.mc-field-group.dish br {
+		display: inline;
+	}
 }
 
 .nowrap {
