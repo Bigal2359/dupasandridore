@@ -295,15 +295,6 @@ p {
 	background-size: contain;
 }
 
-@media screen and (orientation : landscape) {
-	.wedding #wrapper,
-	.e-party #wrapper,
-	.proposal #wrapper,
-	.bridal #wrapper {
-		background-size: cover;
-	}
-}
-
 .slideshow {
     position: fixed;
     width: 100%;
@@ -402,6 +393,16 @@ p {
 	background: url('../images/cathedral.jpg') no-repeat center bottom;
 	background-size: contain;
 	display: none;
+}
+
+@media screen and (orientation : landscape) {
+	.wedding #wrapper,
+	.e-party #wrapper,
+	.proposal #wrapper,
+	.bridal #wrapper,
+	.our-story .bkgd-1 {
+		background-size: cover;
+	}
 }
 
 @media screen and (orientation : portrait) {
