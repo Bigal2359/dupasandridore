@@ -1,16 +1,30 @@
-/*if(getCookie('is-first-visit') && $('body').hasClass('home')) {
+function getCookie(cname) {
+    var name = cname + '=';
+    var ca = document.cookie.split(';');
+    for(var i=0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) === 0) {
+          return c.substring(name.length, c.length);
+        }
+    }
+    return '';
+}
+
+if($('body').hasClass('home') && getCookie('dnr-is-first-visit')) {
     
     setTimeout(function() {
-        $('.save-the-date').fadeToggle();
+        $('.save-the-date').fadeToggle('slow');
         $('body').removeClass('intro');
-    },500);
-} else if($('body').hasClass('home')) {
-    document.cookie = 'is-first-visit=true';
-
-    setTimeout(function() {
-        $('.fade-in').fadeToggle('slow');
     },1500);
-}*/
+} else if($('body').hasClass('home')) {
+    
+    setTimeout(function() {
+        $('.hello').fadeToggle('slow');
+    },1500);
+}
 
 setTimeout(function() {
     $('.fade-in').fadeToggle('slow');
@@ -30,6 +44,8 @@ setInterval(function() {
 
 $('.hello').click(function(){
                 
+    document.cookie = 'dnr-is-first-visit=true';
+
     $('.hello').fadeToggle();
 
     setTimeout(function() {
