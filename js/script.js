@@ -13,17 +13,20 @@ function getCookie(cname) {
     return '';
 }
 
-if($('body').hasClass('home') && getCookie('dnr-is-first-visit')) {
-    
-    setTimeout(function() {
-        $('.save-the-date').fadeToggle('slow');
+if($('body').hasClass('home')) {
+
+    if(getCookie('dnr-is-first-visit')) {
         $('body').removeClass('intro');
-    },1500);
-} else if($('body').hasClass('home')) {
-    
-    setTimeout(function() {
-        $('.hello').fadeToggle('slow');
-    },1500);
+
+        setTimeout(function() {
+            $('.save-the-date').fadeToggle('slow');
+        },1500);
+    } else {
+
+        setTimeout(function() {
+            $('.hello').fadeToggle('slow');
+        },1500);
+    }
 }
 
 setTimeout(function() {
