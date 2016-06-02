@@ -680,6 +680,7 @@ a.cta {
 	-webkit-appearance: none;
 	background-color: #b99d6b;
 	border: none;
+	clear: both;
 	color: #ffffff;
 	display: block;
 	font-family: 'Lato', sans-serif;
@@ -754,17 +755,25 @@ input[type="radio"] {
 @media screen and (min-width: 450px) {
 	.rsvp-page .mc-field-group.input-group li {
 		display: inline-block;
-		margin-right: 20px;
-		width: 40%;
+		margin-left: 5%;
+		width: 45%;
 	}
 
-	.rsvp-page .mc-field-group.input-group label {
-		width: 70%;
+	.rsvp-page .mc-field-group.input-group li:first-child {
+		margin-left: 0;
 	}
+}
+
+@media screen and (min-width: 489px) {
 
 	.mc-field-group.dish {
 		float: left;
-		margin-right: 15px;
+		margin-left: 5%;
+		width: 30%;
+	}
+
+	.mc-field-group.dish.first-dish {
+		margin-left: 0;
 	}
 
 	.mc-field-group.dish br {
