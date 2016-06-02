@@ -15,7 +15,7 @@ function getCookie(cname) {
 
 if($('body').hasClass('home')) {
 
-    if(getCookie('dnr-is-first-visit')) {
+    if(getCookie('dupas-ridore-first-visit')) {
         $('body').removeClass('intro');
 
         setTimeout(function() {
@@ -47,7 +47,7 @@ setInterval(function() {
 
 $('.hello').click(function(){
                 
-    document.cookie = 'dnr-is-first-visit=true';
+    document.cookie = 'dupas-ridore-first-visit=true';
 
     $('.hello').fadeToggle();
 
