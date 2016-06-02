@@ -401,7 +401,8 @@ p {
 	.e-party #wrapper,
 	.proposal #wrapper,
 	.bridal #wrapper,
-	.our-story .bkgd-1 {
+	.our-story .bkgd-1,
+	.rsvp-page .bkgd-2 {
 		background-size: cover;
 	}
 }
