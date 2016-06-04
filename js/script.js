@@ -58,7 +58,8 @@ $('.hello').click(function(){
         
 });
 
-$('.rsvp').click(function() {
+$('.rsvp').click(function(e) {
+    e.preventDefault();
            
     $(this).parent().parent().fadeToggle();
     document.getElementById('mc-embedded-subscribe-form').reset();
