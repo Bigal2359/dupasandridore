@@ -132,3 +132,18 @@ Raphael(function(){
     });
 });
 
+if($('body').hasClass('photos')) {
+    isIframeLoaded();
+}
+
+function isIframeLoaded() {
+    
+    var checkExist = setInterval(function() {
+        
+        if($('.flickrwrap iframe').length) {
+            $('.flickrwrap .cta').addClass('iframe-loaded');
+            clearInterval(checkExist);
+        }
+    }, 100);
+}
+

@@ -879,12 +879,19 @@ input[type="radio"] {
 }
 
 .flickrwrap .cta {
-    color: #fff; 
+    color: #fff;
     left: 50%;
     max-width: none;
+    opacity: 0;
     pointer-events: none;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transition: opacity .5s ease-in .5s;
+    transition: opacity .5s ease-in .5s;
     width: auto;
+}
+
+.flickrwrap .cta.iframe-loaded {
+	opacity: 1;
 }
