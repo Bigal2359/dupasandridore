@@ -467,7 +467,8 @@ p {
 		width: 100%;
 	}
 
-	.faq .copy-card.large {
+	.faq .copy-card.large,
+	.photos .copy-card.large {
 		margin: 0 auto 30px;
 		width: 100%;
 	}
@@ -541,7 +542,8 @@ p {
 	margin-bottom: 15px;
 }
 
-.faq .copy-card {
+.faq .copy-card,
+.photos .copy-card {
     margin: 0 auto 30px;
     max-width: 1000px;
     float: none;
@@ -860,4 +862,18 @@ input[type="radio"] {
 .our-story .second,
 .our-story .third {
 	display: none;
+}
+
+.flickrwrap {
+	position: relative;
+	padding-top: 66.8%;
+	height: 0;
+	overflow: hidden;
+}
+.flickrwrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
 }
