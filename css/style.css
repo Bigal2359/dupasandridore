@@ -877,3 +877,14 @@ input[type="radio"] {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+.flickrwrap .cta {
+    color: #fff; 
+    left: 50%;
+    max-width: none;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+}
