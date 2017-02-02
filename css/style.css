@@ -296,6 +296,11 @@ p {
 	background-size: contain;
 }
 
+.photos #wrapper {
+	background: url('../images/wedding-photo.jpg') no-repeat center bottom;
+	background-size: contain;
+}
+
 .slideshow {
     position: fixed;
     width: 100%;
@@ -401,6 +406,7 @@ p {
 	.e-party #wrapper,
 	.proposal #wrapper,
 	.bridal #wrapper,
+	.photos #wrapper,
 	.our-story .bkgd-1,
 	.rsvp-page .bkgd-2 {
 		background-size: cover;
