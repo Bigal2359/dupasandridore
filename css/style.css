@@ -830,6 +830,12 @@ input[type="radio"] {
 	height: 80px !important;
 }
 
+.aclu {
+	background: url('../images/aclu.gif') no-repeat center;
+	background-size: contain;
+	height: 110px !important;
+}
+
 .retailer-item-inner {
 	padding: 10px;
 }
