@@ -438,6 +438,11 @@ p {
 		background: url('../images/newOrleans-building-portrait.jpg') no-repeat left bottom;
 		background-size: contain;
 	}
+
+	.registry #wrapper {
+		background: url('../images/street-feet-portrait.jpg') no-repeat left bottom;
+		background-size: contain;
+	}
 }
 
 .copy-card {
