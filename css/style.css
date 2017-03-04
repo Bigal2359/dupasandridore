@@ -301,6 +301,11 @@ p {
 	background-size: contain;
 }
 
+.registry #wrapper {
+	background: url('../images/street-feet.jpg') no-repeat left bottom;
+	background-size: contain;
+}
+
 .slideshow {
     position: fixed;
     width: 100%;
@@ -333,17 +338,6 @@ p {
 
 .accommodations .bkgd-2 {
 	background: url('../images/church-floor.jpg') no-repeat left bottom;
-	background-size: contain;
-	display: none;
-}
-
-.registry .bkgd-1 {
-	background: url('../images/street-feet.jpg') no-repeat left bottom;
-	background-size: contain;
-}
-
-.registry .bkgd-2 {
-	background: url('../images/newOrleans-building.jpg') no-repeat left bottom;
 	background-size: contain;
 	display: none;
 }
