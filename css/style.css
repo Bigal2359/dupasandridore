@@ -526,15 +526,9 @@ p {
 @media screen and (min-width: 1000px) {
 	.copy-card {
 		float: right;
-  		margin: 0 5% 20px 0px;
-  	}
-
-  	.small {
-  		margin: -110px 5% 20px 0px;
-  	}
-
-  	.home .small {
-  		margin-top: -40px;
+  		margin: 20px 5% 20px 0px;
+  		top: auto;
+  		transform: translate(0, 0);
   	}
 }
 
